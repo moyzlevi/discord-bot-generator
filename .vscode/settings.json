@@ -1,5 +1,5 @@
 {
-  "files.autoSave": "off",
+  "files.autoSave": "afterDelay",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
