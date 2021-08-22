@@ -9,7 +9,7 @@ import theme from '../styles/theme';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }): JSX.Element => {
   React.useEffect(() => {
-    toast.success('Next.js is so nice!');
+    toast.dark('Welcome to Discord Bot Builder!');
   }, []);
 
   return (

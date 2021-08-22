@@ -1,23 +1,20 @@
 import React from 'react';
-import { Container } from '../styles/pages/home';
-import Link from 'next/link';
-import Image from 'next/image';
-import Gravatar from '../assets/images/gravatar.jpg';
-import { Layout, Header, Sider, Content, Footer } from 'antd';
+import { Layout } from 'antd';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-
+import { Container } from '../styles/pages/home';
 const Home: React.FC = () => (
-  <>
+  <Container>
     <Layout>
-      <Header>header</Header>
+      <Layout.Header>
+        <h1>Discord Bot Builder</h1>
+      </Layout.Header>
       <Layout>
-        <Sider>left sidebar</Sider>
-        <Content>main content</Content>
-        <Sider>right sidebar</Sider>
+        <Layout.Sider>left sidebar</Layout.Sider>
+        <Layout.Content>main content</Layout.Content>
       </Layout>
-      <Footer>footer</Footer>
+      <Layout.Footer>footer</Layout.Footer>
     </Layout>
-  </>
+  </Container>
 );
 
 export default Home;
